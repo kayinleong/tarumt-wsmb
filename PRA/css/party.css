@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+    background: url("../images/main_bg.jpg") repeat-x scroll left top #4396CA;
+    font-family: "Arial";
+    color: #000;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.logo {
+    width: 220px;
+}
+
+#picture {
+    border: 1px solid;
+    background-color: #FFF;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.picture {
+    width: 460px;
+    height: 600px;
+}
+
+.button {
+    width: 60px;
+}
+
+.attention {
+    color: #F00;
+}
+
+#imageFace {
+    background: url("../images/faces/Face_3.jpg") no-repeat bottom;
+    background-size: 100%;
+    z-index: -1;
+}
+
+.accessories {
+    display: inline-block;
+    margin: 10px;
+    z-index: 1000;
+}
+
+.instructions {
+    font-size: 18px;
+}
+
+.center {
+    text-align: center;
+}
+
+.drop {
+    border: 2px dashed;
+    margin-top: 20px;
+}
+
+/*MENU*/
+.submenu {
+    background-color: #8ec33e;
+    /*display:none;*/
+    border: 2px solid #4d4d4d;
+    border-radius: 5px;
+}
+
+.menuitem {
+    display: inline-block;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #FFF;
+}
+
+#menu_1 {
+    background: url("../images/ico_glasses.png") no-repeat;
+    background-size: 100%;
+}
+
+#menu_2 {
+    background: url("../images/ico_beards.png") no-repeat;
+    background-size: 100%;
+}
+
+#menu_3 {
+    background: url("../images/ico_hats.png") no-repeat;
+    background-size: 100%;
+}
+
+.accessories {
+    width: 110px;
+}
+
+.tab-content>div {
+    line-height: 180px;
+}
